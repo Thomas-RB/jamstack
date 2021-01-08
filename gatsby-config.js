@@ -58,6 +58,25 @@ module.exports = {
       },
     },
 
+    {
+      resolve: `gatsby-plugin-paypal`,
+      options: {
+        clientId: `AeUmu7a378NOBOGFPy7bdWEBpTM4G94QMAUqanmbnDX21u2iGdQmzBfeUJc0mnRGsmIR34btbKSodOiU`,
+        currency: `EUR` // Optional
+      }
+    },
+
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `limelight`,
+          `source serif pro` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+
   ],
     pathPrefix: "/Explore",
 }

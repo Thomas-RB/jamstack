@@ -35,14 +35,14 @@
 .card-img-top-dslr {
     background-image: url("../../images/articles/dslr.jpeg");
     background-repeat: no-repeat;
-    height: 20rem;
+    height: 21rem;
     object-fit: cover;
 }
 
 .card-img-top-stellina {
     background-image: url("../../images/articles/dobson.jpg");
     background-repeat: no-repeat;
-    height: 20rem;
+    height: 23rem;
 }
 
 .card-title {

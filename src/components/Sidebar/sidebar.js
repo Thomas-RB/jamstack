@@ -1,17 +1,17 @@
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faInstagramSquare, faPinterestSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import './sidebar.css'
+import "../../font-awesome"
 
 const Sidebar = () => {
     return (
         <>
             <aside>
-            <i className="fab fa-instagram-square"></i>
-            <i className="fab fa-pinterest-square"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-twitter-square"></i>
-            <i className="fab fa-google-plus-square"></i>
+            <FontAwesomeIcon icon={faInstagramSquare} className='fab' />
+            <FontAwesomeIcon icon={faTwitterSquare} className='fab' />
+            <FontAwesomeIcon icon={faPinterestSquare} className='fab' />
+            <FontAwesomeIcon icon={faFacebookSquare} className='fab' />
             </aside>
         </>
 

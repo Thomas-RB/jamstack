@@ -1,9 +1,10 @@
 import React, {useState} from "react"
 
 import Modal from "../ModaleProduct/Modal";
-import Paypal from "../Paypal/paypal";
+import Paypal from "gatsby-plugin-paypal"
 import SEO from "../seo"
 import './cards.css'
+import PaypalButton from "../Paypal/paypalButton";
 
 
 const Cards = () => {
@@ -40,14 +41,14 @@ const Cards = () => {
                             <button onClick={openModal} className="btn btn-outline-success mb-3">See Product Details</button>
 
                             {checkout ? (
-                                <Paypal />
+                                <PaypalButton />
                             ) : (
                             <button
                             onClick={() => {
                                 setCheckout(true);
                                 }} 
                             className="btn btn-outline-success">
-                                Express Purchase
+                                Purchase via Paypal
                             </button>
                             )}
 
@@ -70,7 +71,8 @@ const Cards = () => {
                             <button onClick={openModal} className="btn btn-outline-success mb-3">See Product Details</button>
 
                             {checkoutB ? (
-                                <Paypal />
+                                <PaypalButton />
+
                             ) : (
                             <button
                             onClick={() => {
@@ -100,7 +102,8 @@ const Cards = () => {
                             <button onClick={openModal} className="btn btn-outline-success mb-3">See Product Details</button>
                             
                             {checkoutC ? (
-                                <Paypal />
+                                <PaypalButton />
+
                             ) : (
                             <button
                             onClick={() => {

@@ -1,6 +1,7 @@
 import React, {useRef, useEffect, useCallback, useState} from 'react'
 import {useSpring, animated} from 'react-spring'
-import Paypal from "../Paypal/paypal";
+import PaypalButton from "../Paypal/paypalButton";
+
 
 import './Modal.css'
 
@@ -60,7 +61,7 @@ const Modal = ({showModal, setShowModal}) => {
                                 </p>
 
                             {checkout ? (
-                                <Paypal />
+                                <PaypalButton />
                             ) : (
                             <button
                             onClick={() => {

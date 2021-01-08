@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Navbar from "../components/Navbar/navbar"
 import Sidebar from "../components/Sidebar/sidebar"
 import Footer from "../components/Footer/footer"
 import SEO from "../components/seo"
 
+import "../font-awesome"
 
 import "../pages/CSS/index.css"
 
@@ -38,7 +40,7 @@ const IndexPage = () => {
           </p>
         </div>
 
-        <Link to="/Products/"><button type="button" className="btn btn-outline-dark">EXPLORE the Night Sky <i className="fas fa-angle-right"></i> </button></Link>
+        <Link to="/Products/"><button type="button" className="btn btn-outline-dark">EXPLORE the Night Sky <FontAwesomeIcon className="fas" icon={['fas', 'angle-right']} /> </button></Link>
 
         <section>
           <div className="first_img"></div>
