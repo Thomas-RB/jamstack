@@ -89,7 +89,7 @@ const Cards = () => {
                 </div>
 
                 <div className="card">
-                    <div className="card-img-top-stellina"> </div>
+                    <div className="card-img-top-dobson"> </div>
                     <div className="card-body">
                         <h5 className="card-title">Dobson Flextube 750/1400</h5>
                         <p className="card-text">

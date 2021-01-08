@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    top: 33rem;
+    top: 30rem;
     left: 0;
     right: 0;
     margin: auto;
@@ -35,14 +35,15 @@
 .card-img-top-dslr {
     background-image: url("../../images/articles/dslr.jpeg");
     background-repeat: no-repeat;
-    height: 21rem;
+    height: 20.5rem;
     object-fit: cover;
 }
 
-.card-img-top-stellina {
+.card-img-top-dobson {
     background-image: url("../../images/articles/dobson.jpg");
     background-repeat: no-repeat;
-    height: 23rem;
+    height: 21rem;
+    object-fit: cover;
 }
 
 .card-title {

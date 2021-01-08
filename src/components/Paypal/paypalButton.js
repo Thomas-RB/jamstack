@@ -5,8 +5,8 @@ const PaylpalButton = () => (
     <Paypal 
       style={{
         shape: 'rect',
-        color: 'blue',
-        layout: 'horizontal',
+        color: 'gold',
+        layout: 'vertical',
         label: 'paypal',
       }}
       amount={10.1}

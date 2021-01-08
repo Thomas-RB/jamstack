@@ -2,7 +2,6 @@ import React from "react"
 
 import NavbarProducts from "../components/Navbar/navbarProducts"
 import Sidebar from "../components/Sidebar/sidebar"
-import Footer from "../components/Footer/footer"
 
 import Cards from "../components/Cards/cards"
 
@@ -33,7 +32,6 @@ const Products = () => {
         </div>
 
     </div>
-    <Footer />
 
   </>
     )
