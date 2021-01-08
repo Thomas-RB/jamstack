@@ -1,0 +1,110 @@
+.about-container {
+    position: relative;
+    height: auto;
+    top: -92rem;
+    margin: auto;
+    width: 140rem;
+    /* background-color: cyan; */
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.about-bigTitle {
+    position: absolute;
+    top: 2rem;
+    left: 40rem;
+    right: 0;
+    margin: auto;
+    color: grey;
+    font-size: 15rem;
+    opacity: .08;
+}
+
+.about-bigTitle2 {
+    position: absolute;
+    top: 14rem;
+    left: 52rem;
+    right: 0;
+    margin: auto;
+    color: var(--small-title-color);
+    font-size: 12rem;
+}
+
+.firstParagraph h2 {
+    /* WELCOME TO EXPLORE */
+    position: absolute;
+    top: 30rem;
+    left: 28rem;
+    right: 0;
+    margin: auto;
+    color: var(--paragraph-color);
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+.firstParagraph p {
+    position: absolute;
+    top: 42rem;
+    left: 28rem;
+    right: 0;
+    margin: auto;
+    color: var(--paragraph-color);
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.firstParagraph h3 {
+    /* HAVE A LOOK */
+    position: absolute;
+    top: 43rem;
+    left: 28rem;
+    right: 0;
+    margin: auto;
+    color: var(--paragraph-color);
+    font-size: 4rem;
+    font-weight: 400;
+}
+.firstParagraph p:nth-child(2) {
+    /* WELCOME Paragraph */
+    position: absolute;
+    top: 35rem;
+    left: 28rem;
+    right: 0;
+    margin: auto;
+    color: var(--paragraph-color);
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.firstParagraph p:nth-child(4) {
+    /* HAVE A LOOK Paragraph */
+    position: absolute;
+    top: 48rem;
+    left: 28rem;
+    right: 0;
+    margin: auto;
+    color: var(--paragraph-color);
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.firstParagraph img {
+    /* Galaxy */
+    position: absolute;
+    top: 11rem !important;
+    left: -16rem !important;
+    height: 30rem !important;
+    width: 30rem !important;
+    object-fit: cover !important;
+    border-radius: 5px;
+}
+
+.gatsby-resp-image-background-image {
+    display: none !important;
+}
